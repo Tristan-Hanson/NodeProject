@@ -41,15 +41,15 @@ inquirer.prompt([
 
 function generateMarkdown(data){
     return `
-    #${data.title}
-    ## Description
-    ${data.description}
-    ## Motivation
-    ${data.motivation}
-    ## What I wanted to solve
-    ${data.problem}
-    ## What I learned
-    ${data.learn}
-    ## What makes my project stand out
-    ${data.unique}`
+# ${data.title}
+## Description
+${data.description}
+## Motivation
+${data.motivation}
+## What I wanted to solve
+${data.problem}
+## What I learned
+${data.learn}
+## What makes my project stand out
+${data.unique}`
 }
